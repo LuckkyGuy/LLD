@@ -1,0 +1,74 @@
+Multiple Elevator
+Elevator system per building
+Range of floor
+Elevator types (Passanger, Service, Private)
+Capacity/ Maximum Load
+Elevator movement strategy
+Elevator selection strategy
+Elevator state
+
+Elevator
+--------
+Emergency button 
+Fan
+Light
+
+
+
+FCFS : Queue
+SSTF : Heap
+Scan : 
+Look : 
+
+
+
+Main
+_______________________
+ElevatorSystem
+Initialize ElevatorSystem
+SetAlgo
+------
+system.sendExternalRequest (srcFoolr, UP/DOWN)
+system.sendInternalRequest (elevatorId, destFoolr)
+
+
+ElevatorSystem
+_______________________
+Initialize
+SetAlgo
+sendExternalRequest(Srcm, dir)
+sendInternalRequest(Dest)
+
+
+Elevator
+_______________________
+ElevatorId
+EmergencyButton
+buttons
+Display
+Doors
+Capacity
+Light
+ElevatorState : ElevatorState
+EelevatorMovement
+EelevatorController
+
+ElevatorState
+_______________________
+direction
+state
+currentFloor
+
+
+EelevatorController
+_______________________
+
+
+IElevatorMovementStrategy
+abstarct doExecute()
+
+
+
+ELevatorManager
+_______________________
+Map <elevatorId, Elevator>
