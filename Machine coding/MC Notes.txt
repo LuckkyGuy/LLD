@@ -1,0 +1,18 @@
+Python
+Date and Time format
+2024-09-03 19:26:43.231843
+
+// time = datetime.time(23)
+time = datetime.time(23)
+
+
+// parse date time string
+date_time = datetime.datetime.strptime("2024/06/03 17:59:01", "%Y/%m/%d %H:%M:%S")
+// create date time obj
+date = datetime.date(2024, 12, 31)
+time = datetime.time(23, 59, 59)
+print(date.__str__())
+print(datetime.date.today())
+
+
+https://medium.com/@nishi.paul.in/datetime-in-python-all-in-one-c66bfef006d9#:~:text=To%20Display%20the%20Current%20Date%20and%20Time%20in%20the%20Specified%20Format&text=So%2C%20%25d%20is%20giving%20the,%25Y%20(capital%20Y).&text=03%2F08%2F2022-,date.,the%20date%20of%20the%20system.

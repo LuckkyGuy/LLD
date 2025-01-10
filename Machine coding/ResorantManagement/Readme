@@ -1,0 +1,16 @@
+Problem Statement
+You need to design a system that allows user to search a restaurant and book a table for n people in a restaurant
+There are 3 parts to this problem statement. “registerRestaurant”, “searchRestaurant” and “bookTable”.
+
+RegisterRestaurant : Any restaurant owner should be able to come on the platform and register a restaurant. Restaurants should be able to also provide the slots when it is available for bookings,
+
+SearchRestaurant : Any logged in user, should be able to search a restaurant based on city, area, cuisine, restaurantName, cost for two, veg/non-veg etc
+
+BookTable : Once the user is done searching the restaurant, he/she should be able to book a table for n people in the restaurant if the table and slot is available for the booking date. For simplicity, you can assume all tables in the restaurant are eligible for n people and only 1 hour time slots are allowed for booking. Bookings only allowed for upto m days in future
+
+
+Requirements P0
+Make your library/interfaces generic enough to be used for hotel booking in future if needed
+You should have a working code that demonstrates the same.
+Handle error scenarios appropriately
+Concurrency handling for multiple parallel booking requests
